@@ -37,5 +37,5 @@ jobs:
 
       - name: Zaženi teste
         run: |
-          pytest grader/tests-template/test_funkcije.py
-          pytest grader/tests-template/test_teorija.py
+          pytest grader/tests-template/tests_funkcije.py
+          pytest grader/tests-template/tests_teorija.py
